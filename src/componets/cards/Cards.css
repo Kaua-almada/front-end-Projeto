@@ -1,0 +1,26 @@
+.Container-carrinho {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.produtos-carrinho-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin: 15px 0;
+}
+
+.produtos-carrinho-card img {
+  max-width: 100px; 
+  height: auto;
+  margin-right: 15px;
+}
+
+.produtos-carrinho-card h3,
+.produtos-carrinho-card h4,
+.produtos-carrinho-card p {
+  margin: 0;
+}

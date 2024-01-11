@@ -1,0 +1,58 @@
+/* Seu CSS atualizado */
+
+.navbar-container {
+  display: flex;
+  background-color: #ffe600;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  width: 80px;
+  height: 80px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 15px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #d9534f;
+    padding: 10px 10px;
+  }
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.entrar-btn {
+  background-color: #d9534f;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.entrar-btn:hover {
+  background-color: #a52a24;
+}

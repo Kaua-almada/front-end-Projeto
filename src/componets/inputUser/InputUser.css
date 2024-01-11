@@ -1,0 +1,48 @@
+/* CSS Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cor de fundo da aplicação */
+body {
+  background-color: #f2f2f2;
+}
+
+/* Estilos do container */
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos dos inputs */
+.inputs-user input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* Estilos do botão post */
+.botaopost-user .botao-user-post {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #f0c040; /* Cor amarela */
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.botaopost-user .botao-user-post:hover {
+  background-color: #f29c40; /* Cor vermelha */
+}

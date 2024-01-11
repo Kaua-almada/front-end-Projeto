@@ -1,0 +1,23 @@
+
+.custom-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-image {
+  width: 50%; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+  border-radius: 10px;
+  margin: auto;
+  display: block;
+}
+
+.carousel {
+  margin-bottom: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
